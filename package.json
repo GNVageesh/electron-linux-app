@@ -1,0 +1,23 @@
+{
+  "name": "linux-app",
+  "version": "1.0.0",
+  "description": "A linux app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "linux"
+  ],
+  "build": {
+    "appId": "com.gnvageesh.linux-app",
+    "productName": "Linux App"
+  },
+  "author": "GN Vageesh <vageeshgn2005@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.2.0",
+    "electron-builder": "^22.9.1"
+  }
+}
